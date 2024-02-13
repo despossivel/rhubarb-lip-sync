@@ -4,7 +4,7 @@
 
 ![Logo](https://github.com/DanielSWolf/rhubarb-lip-sync/raw/master/img/logo.png)
 
-Rhubarb Lip Sync allows you to quickly create 2D mouth animation from voice recordings. It analyzes your audio files, recognizes what is being said, then automatically generates lip sync information. You can use it for animating speech in computer games, animated cartoons, or any similar project.
+Rhubarb Lip Sync to NodeJs allows you to quickly create 2D mouth animation from voice recordings. It analyzes your audio files, recognizes what is being said, then automatically generates lip sync information. You can use it for animating speech in computer games, animated cartoons, or any similar project.
 
 Rhubarb Lip Sync integrates with the following applications:
 
@@ -94,29 +94,5 @@ XML format is rather verbose. The following is the output for a person saying 'H
   </mouthCues>
 </rhubarbResult>
 ----
-
-The file starts with a `metadata` block containing the full path of the original recording and its duration (truncated to a multiple of 0.01s). After that, each `mouthCue` element indicates the start and end of a certain mouth shape, as explained for <<tsv,TSV format>>. Note that the end of each mouth cue is identical with the start of the following one. This is a bit redundant, but it means that we don't need a special final element like in TSV format.
-
-[[json]]
-=== JSON format (`json`)
-
-JSON format is very similar to <<xml,XML format>>. The choice mainly depends on the programming language you use, which may have built-in support for one format but not the other. The following is the output for a person saying 'Hi,' the same recording as above.
-
-[source,json]
-----
-{
-  "metadata": {
-    "soundFile": "C:\\Users\\Daniel\\Desktop\\av\\hi\\hi.wav",
-    "duration": 0.47
-  },
-  "mouthCues": [
-    { "start": 0.00, "end": 0.05, "value": "X" },
-    { "start": 0.05, "end": 0.27, "value": "D" },
-    { "start": 0.27, "end": 0.31, "value": "C" },
-    { "start": 0.31, "end": 0.43, "value": "B" },
-    { "start": 0.43, "end": 0.47, "value": "X" }
-  ]
-}
-----
-
-There is nothing surprising here; everything said about XML format applies to JSON, too.
+ 
+[Find out more here](https://github.com/DanielSWolf/rhubarb-lip-sync)
