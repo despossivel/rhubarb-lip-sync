@@ -71,28 +71,6 @@ Here's how to read it:
 * The second half of the "`AY`" diphtong (0.31s into the recording) requires clenched teeth (shape {B}). Before that, shape {C} is inserted as an in-between at 0.27s. This allows for a smoother animation from {D} to {B}.
 * 0.43s into the recording, the dialog is finished and the mouth closes again (shape {X}).
 * The last output line in TSV format is special: Its timestamp is always the very end of the recording (truncated to a multiple of 0.01s) and its value is always a closed mouth (shape {X} or {A}, depending on your <<extendedShapes,`extendedShapes`>> settings).
-
-[[xml]]
-=== XML format (`xml`)
-
-XML format is rather verbose. The following is the output for a person saying 'Hi,' the same recording as above.
-
-[source,xml]
-----
-<?xml version="1.0" encoding="utf-8"?>
-<rhubarbResult>
-  <metadata>
-    <soundFile>C:\Users\Daniel\Desktop\av\hi\hi.wav</soundFile>
-    <duration>0.47</duration>
-  </metadata>
-  <mouthCues>
-    <mouthCue start="0.00" end="0.05">X</mouthCue>
-    <mouthCue start="0.05" end="0.27">D</mouthCue>
-    <mouthCue start="0.27" end="0.31">C</mouthCue>
-    <mouthCue start="0.31" end="0.43">B</mouthCue>
-    <mouthCue start="0.43" end="0.47">X</mouthCue>
-  </mouthCues>
-</rhubarbResult>
-----
+ 
  
 [Find out more here](https://github.com/DanielSWolf/rhubarb-lip-sync)
