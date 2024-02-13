@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pwd
+
+./rhubarb/rhubarb   -f json /Users/matheus.brito/Documents/lab/io.tryvoice.ai/.tools/output_file.wav -o /Users/matheus.brito/Documents/lab/io.tryvoice.ai/.tools/output.json

@@ -1,6 +1,6 @@
 {
   "name": "rhubarb-lip-sync",
-  "version": "0.0.1-alfa",
+  "version": "0.0.1-alfa-3",
   "description": "Rhubarb Lip Sync is a powerful tool for creating 2D mouth animations from voice recordings. It analyzes audio files, recognizes speech, and automatically generates lip sync data. Ideal for animating speech in games, cartoons, and similar projects.",
   "main": "index.js",
   "type": "module",
