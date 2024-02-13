@@ -11,7 +11,7 @@
 [![Follow Twitter](https://img.shields.io/twitter/follow/RhubarbLipSync.svg?style=social&label=Follow)](https://twitter.com/RhubarbLipSync)
 [![Build status](https://github.com/DanielSWolf/rhubarb-lip-sync/actions/workflows/ci.yml/badge.svg)](https://github.com/DanielSWolf/rhubarb-lip-sync/actions/workflows/ci.yml)
 
-![Logo](img/logo.png)
+![Logo](https://github.com/DanielSWolf/rhubarb-lip-sync/raw/master/img/logo.png)
 
 Rhubarb Lip Sync allows you to quickly create 2D mouth animation from voice recordings. It analyzes your audio files, recognizes what is being said, then automatically generates lip sync information. You can use it for animating speech in computer games, animated cartoons, or any similar project.
 
