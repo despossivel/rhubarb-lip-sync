@@ -1,12 +1,3 @@
-:A: &#9398;
-:B: &#9399;
-:C: &#9400;
-:D: &#9401;
-:E: &#9402;
-:F: &#9403;
-:G: &#9404;
-:H: &#9405;
-:X: &#9421;
 
 [![Follow Twitter](https://img.shields.io/twitter/follow/RhubarbLipSync.svg?style=social&label=Follow)](https://twitter.com/RhubarbLipSync)
 [![Build status](https://github.com/DanielSWolf/rhubarb-lip-sync/actions/workflows/ci.yml/badge.svg)](https://github.com/DanielSWolf/rhubarb-lip-sync/actions/workflows/ci.yml)
